@@ -1,0 +1,18 @@
+package xyz;
+
+public class filethree {
+    public static void main(String[] args) {
+        String[] wanafunzi;
+        String output;
+        wanafunzi=new String[5];
+        wanafunzi[0]="Anthony";
+        wanafunzi[0]="Ian";
+        wanafunzi[0]="Peter";
+        wanafunzi[0]="Brio";
+        wanafunzi[0]="Wasike";
+        output=wanafunzi[0]+"\n"+wanafunzi[1]+"\n"+wanafunzi[2]+"\n"+wanafunzi[3]+"\n"+
+                wanafunzi[4];
+
+        System.out.println(output);
+    }
+}
